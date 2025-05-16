@@ -1,0 +1,19 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.purpleButton {
+  font-size: 1em;
+  height: 2em;
+  border-radius: 0.3em;
+  border: 2px solid black;
+}
+
+input[type="submit"].purpleButton {
+  background: #631fa3;
+  color: white;
+}
+
+.purple {
+	color: #631fa3;
+}
