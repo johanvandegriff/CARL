@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from flask import Flask, request, render_template, url_for, send_file
+from flask import Flask, request, Response, render_template, url_for, send_file
 import os, re, sys, io
 from profanity_filter import ProfanityFilter
 
@@ -21,7 +21,8 @@ def carl_api():
     user = request.args.get("user", "")
     allowProfanity = request.args.get("profanity", "") == "true"
 
-    return CARL.answer(carl, user, allowProfanity)
+    answer = CARL.answer(carl, user, allowProfanity)
+    return Response(answer, mimetype='text/plain')
 
 @app.route(PREFIX if PREFIX != '' else '/', methods=["GET", "POST"])
 def carl_page():

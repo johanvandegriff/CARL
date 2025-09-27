@@ -2,7 +2,6 @@
 # then enable profanity-filter2 and its deps below, and install WITH the --no-deps flag to avoid profanity-filter2's impossible/circular deps
 #Flask
 #Pillow
-#pymongo
 #gunicorn
 #en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
 #spacy
