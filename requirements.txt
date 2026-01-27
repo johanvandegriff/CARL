@@ -6,8 +6,8 @@
 #en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
 #spacy
 
-#https://git.sr.ht/~johanvandegriff/tensorflow-custom-build/blob/master/tensorflow-2.4.1-cp36-cp36m-linux_x86_64.whl
-#https://git.sr.ht/~johanvandegriff/tensorflow-custom-build/blob/master/tensorflow-2.4.1-cp38-cp38-linux_x86_64.whl
+#https://git.sr.ht/~epjane/tensorflow-custom-build/blob/master/tensorflow-2.4.1-cp36-cp36m-linux_x86_64.whl
+#https://git.sr.ht/~epjane/tensorflow-custom-build/blob/master/tensorflow-2.4.1-cp38-cp38-linux_x86_64.whl
 #en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
 
 # profanity-filter2 and its deps:
